@@ -1,0 +1,26 @@
+CATÁLOGO JEANNY — sitio web listo para subir
+=============================================
+
+Contenido
+- index.html    → la página
+- styles.css    → colores, animaciones del logo y luz de los botones
+- script.js     → filtros, botones de WhatsApp y tarjeta QR
+- productos.js  → LISTA DE PRODUCTOS (aquí se editan nombres y precios)
+- img/          → logo, fotos de los 46 productos y los 2 códigos QR
+
+Cómo poner precios
+1. Abre productos.js con cualquier editor de texto (Bloc de notas, VS Code).
+2. En cada producto cambia  "price": ""  por el precio, por ejemplo  "price": "$15".
+3. Si lo dejas vacío, se muestra "Consultar precio".
+
+Cómo publicarlo gratis (cualquiera sirve)
+- Netlify Drop: entra a app.netlify.com/drop y arrastra la carpeta completa.
+- GitHub Pages o Vercel: sube la carpeta tal cual.
+Luego pon el enlace en la bio de Instagram @jeannys2102.
+
+Datos configurados
+- WhatsApp: +58 424 923 8355 (en script.js, variable WHATSAPP)
+- Instagram: @jeannys2102 (en script.js, variable INSTAGRAM)
+
+Pendiente
+- Zona de entrega: en index.html busca [ZONA DE ENTREGA] y reemplázalo.
